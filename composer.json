@@ -1,0 +1,21 @@
+{
+  "name": "Jarosoft/Doc-Building",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Jaros",
+      "email": "michael.jaros@jarosoft.at"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "VEMAP\\Docbuilding\\": "src/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "8.3.3",
+    "twig/twig": "^2.0"
+  }
+}
